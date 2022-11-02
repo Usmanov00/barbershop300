@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 
 body {
@@ -17,6 +17,11 @@ code {
     monospace;
 }
 
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+}
 
 .header img {
    width: 100%;
@@ -81,11 +86,51 @@ code {
     background-color: #41c452;
     position: relative;
     top: -19px;
-    right: -120px;
+    right: -104px;
     padding: 5px 20px;
     width: 100px;
     border-radius: 50px;
     color: #41c452;
+
+}
+
+.service {
+    margin-bottom: 80px;
+}
+
+.main {
+    color: #ffffff;
+    font-family: 'Poor Story', cursive;
+
+}
+
+.UlBlockPrice {
+    display: flex;
+    list-style: none;
+}
+
+.circle {
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    position: absolute;
+    top: 319px;
+    right: 172px;
+
+}
+.circle1 {
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    position: absolute;
+    top: 292px;
+    right: 138px;
+
+}
+.circle2 {
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    position: absolute;
+    top: 290px;
+    right: 103px;
 
 }
 
