@@ -95,12 +95,15 @@ code {
 }
 
 .service {
-    margin-bottom: 80px;
+    position: absolute;
+    top: 258px;
+    right: 265px;
 }
 
 .main {
     color: #ffffff;
-    font-family: 'Poor Story', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
 
 }
 
@@ -109,28 +112,36 @@ code {
     list-style: none;
 }
 
+.name {
+    padding: 0 5px 0 0;
+}
+
 .circle {
     writing-mode: vertical-rl;
     transform: scale(-1);
     position: absolute;
-    top: 319px;
-    right: 172px;
+    top: 270px;
+    right: 155px;
+    font-weight: 600;
 
 }
 .circle1 {
     writing-mode: vertical-rl;
     transform: scale(-1);
     position: absolute;
-    top: 292px;
-    right: 138px;
-
+    top: 244px;
+    right: 112px;
+    font-weight: 600;
 }
+
+
 .circle2 {
     writing-mode: vertical-rl;
     transform: scale(-1);
     position: absolute;
-    top: 290px;
-    right: 103px;
+    top: 242px;
+    right: 67px;
+    font-weight: 600;
 
 }
 
