@@ -59,7 +59,7 @@ code {
 .whatsappLogo img {
     width: 14%;
     position: absolute;
-    top: 161px;
+    top: 177px;
     right: 224px;
 }
 
@@ -70,7 +70,7 @@ code {
     font-family: 'Roboto', sans-serif;
     background-color: #41c452;
     padding: 0;
-    top: 154px;
+    top: 169px;
     right: 144px;
     border-radius: 5px;
     font-weight: 600;
@@ -80,7 +80,7 @@ code {
 .headerLine {
     background-color: #41c452;
     position: relative;
-    top: -35px;
+    top: -19px;
     right: -120px;
     padding: 5px 20px;
     width: 100px;
