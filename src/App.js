@@ -10,6 +10,9 @@ function App() {
           <div className="logo">
             <img src={logo} alt=""/>
           </div>
+          <div className="headerLine">
+            ----------
+          </div>
           <div className="header">
             <div className="whatsappLogo">
               <p className="RegistrationTitle">Записаться</p>
