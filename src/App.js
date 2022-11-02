@@ -15,7 +15,11 @@ function App() {
           </div>
             <div className="header">
               <div className="whatsappLogo">
+                <div className="pointer">
+                  --->
+                </div>
                 <p className="RegistrationTitle">Записаться</p>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#">
                   <img src={whatsapp} alt=""/>
                 </a>

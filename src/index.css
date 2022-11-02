@@ -57,15 +57,22 @@ code {
 
 }
 
-.headerLine {
 
+.pointer {
+    position: absolute;
+    top: 0;
+    right: 35px;
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
 }
+
 
 .whatsappLogo img {
     width: 14%;
     position: absolute;
-    top: 177px;
-    right: 224px;
+    top: -3px;
+    right: -12px;
 }
 
 .RegistrationTitle {
@@ -73,24 +80,23 @@ code {
     font-size: 16px;
     position: absolute;
     font-family: 'Roboto', sans-serif;
-    background-color: #41c452;
     padding: 0;
-    top: 169px;
-    right: 144px;
+    top: -10px;
+    right: 86px;
     border-radius: 5px;
     font-weight: 600;
 
 }
 
 .headerLine {
-    background-color: #41c452;
+    background-color: #03030370;
     position: relative;
-    top: -19px;
-    right: -104px;
+    top: -199px;
+    right: 17px;
     padding: 5px 20px;
-    width: 100px;
+    width: 100%;
     border-radius: 50px;
-    color: #41c452;
+    color: #03030370;
 
 }
 
