@@ -20,6 +20,10 @@ code {
     monospace;
 }
 
+.container {
+    margin: 0 auto;
+}
+
 .background {
     background: url("../src/assets/img/background.jpg") no-repeat;
 
@@ -46,20 +50,55 @@ code {
 }
 
 
-
-
-
 .menu a{
     color: #fff;
     padding-right: 15px;
 }
 
+.barber1 {
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    margin-top: -80px;
+    margin-left: 271px ;
+}
+.barber2 {
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    margin-top: -81px;
+    margin-left: 318px;
+}
+.barber3 {
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    margin-top: -86px;
+    margin-left: 368px;
+}
 
 .titlePrice {
     font-size: 30px;
     margin-bottom: 214px;
     margin-top: 196px;
     margin-left: -150px;
+    align-items: start;
 }
+
+
+.liPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liPriceTitle {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.liPricePrice {
+    padding-right: 16px;
+    font-size: 16px;
+
+}
+
 
 
