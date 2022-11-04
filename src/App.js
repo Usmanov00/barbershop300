@@ -13,7 +13,7 @@ import img9 from '../src/assets/img/Дизайн без названия (12).pn
 function App() {
   return (
     <div className="App">
-      <div className="container w-full h-auto overflow-scroll block h-screen bg-gradient-to-r from-red-500 via-gray-900">
+      <div className="container w-full h-auto overflow-scroll block h-screen bg-gradient-to-r from-red-900 via-gray-900">
         <div className="background">
           <section className="header">
             <div className="headerBox">
