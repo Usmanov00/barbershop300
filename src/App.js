@@ -13,7 +13,7 @@ import img9 from '../src/assets/img/Дизайн без названия (12).pn
 function App() {
   return (
     <div className="App">
-      <div className="container w-full h-auto overflow-scroll block h-screen bg-gradient-to-r from-red-900 via-gray-900">
+      <div className="container w-full h-auto overflow-scroll block h-screen bg-gradient-to-r from-red-700 via-gray-900">
         <div className="background">
           <section className="header">
             <div className="headerBox">
@@ -26,7 +26,7 @@ function App() {
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a href="#main" className="menuLink">Цены</a>
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                  <a href="#" className="menuLink">Мастера</a>
+                  <a href="#about" className="menuLink">Мастера</a>
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 </nav>
               </div>
@@ -131,7 +131,7 @@ function App() {
               </li>
             </ul>
           </section>
-          <section className="about">
+          <section id="about" className="about">
             <div className="titleLocation">
               <b><u>Адрес: Токтогула 194/Манаса</u></b>
             </div>
