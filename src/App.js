@@ -9,6 +9,8 @@ import img6 from '../src/assets/img/Дизайн без названия (16) (1
 import img7 from '../src/assets/img/Дизайн без названия (11) (1).png'
 import img8 from '../src/assets/img/Дизайн без названия (17) (1).png'
 import img9 from '../src/assets/img/Дизайн без названия (12).png'
+import whatsapp from '../src/assets/img/WhatsApp.png'
+
 
 function App() {
   return (
@@ -30,23 +32,27 @@ function App() {
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 </nav>
               </div>
-              <div className="img">
-                <img src={logo} alt=""/>
-              </div>
+              <a href="https://wa.me/+996502300440">
+                <div className="img">
+                  <img src={logo} alt=""/>
+                </div>
+                <div className="whatsapp">
+                  <img src={whatsapp} alt=""/>
+                  Записаться
+                </div>
+              </a>
             </div>
           </section>
           <section id="main" className="main">
             <h1 className="titlePrice">Прайс</h1>
             <div className="barber1">Барбер</div>
             <div className="barber2">Топ барбер</div>
-            <div className="barber3">Вип барбер</div>
             <ul className="title">
               <li className="liPrice">
               <p className="liPriceTitle">Мужская стрижка ...</p>
                 <div className="div">
                   <span className="liPricePrice">400c |</span>
                   <span className="liPricePrice">500c |</span>
-                  <span className="liPricePrice">800c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -54,7 +60,6 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">350c |</span>
                   <span className="liPricePrice">400c |</span>
-                  <span className="liPricePrice">500c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -62,7 +67,6 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">350c |</span>
                   <span className="liPricePrice">400c |</span>
-                  <span className="liPricePrice">600c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -70,7 +74,6 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">350c |</span>
                   <span className="liPricePrice">400c |</span>
-                  <span className="liPricePrice">600c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -78,7 +81,6 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">350c |</span>
                   <span className="liPricePrice">400c |</span>
-                  <span className="liPricePrice">600c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -86,7 +88,6 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">200c |</span>
                   <span className="liPricePrice">250c |</span>
-                  <span className="liPricePrice">300c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -94,7 +95,6 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">350c |</span>
                   <span className="liPricePrice">400c |</span>
-                  <span className="liPricePrice">500c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -102,7 +102,6 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">500c |</span>
                   <span className="liPricePrice">500c |</span>
-                  <span className="liPricePrice">600c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -110,7 +109,6 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">100c |</span>
                   <span className="liPricePrice">100c |</span>
-                  <span className="liPricePrice">200c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -118,7 +116,6 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">100c |</span>
                   <span className="liPricePrice">150c |</span>
-                  <span className="liPricePrice">200c</span>
                 </div>
               </li>
               <li className="liPrice">
@@ -126,7 +123,13 @@ function App() {
                 <div className="div">
                   <span className="liPricePrice">1500c |</span>
                   <span className="liPricePrice">1700c |</span>
-                  <span className="liPricePrice">2000c</span>
+                </div>
+              </li>
+              <h1 className="sale"><u><b>Акции</b></u></h1>
+              <li className="liPrice">
+                <p className="liPriceTitle">Отец + сын</p>
+                <div className="div">
+                  <span className="liPricePrice">700c |</span>
                 </div>
               </li>
             </ul>
@@ -216,6 +219,9 @@ function App() {
                 </li>
               </ul>
             </div>
+          </section>
+          <section className="footer">
+
           </section>
         </div>
       </div>

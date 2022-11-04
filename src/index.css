@@ -57,6 +57,17 @@ code {
     padding-right: 15px;
 }
 
+.whatsapp {
+    position: fixed;
+    width: 50px;
+    height: auto;
+    top: 90px;
+    right: 50px;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
 .main {
     margin-bottom: 50px;
 }
@@ -64,15 +75,15 @@ code {
 .barber1 {
     writing-mode: vertical-rl;
     transform: scale(-1);
-    margin-top: -80px;
-    margin-left: 224px ;
+    margin-top: -124px;
+    margin-left: 270px;
     font-size: 24px;
 }
 .barber2 {
     writing-mode: vertical-rl;
     transform: scale(-1);
-    margin-top: -81px;
-    margin-left: 283px;
+    margin-top: -116px;
+    margin-left: 323px;
     font-size: 24px;
 }
 .barber3 {
@@ -110,6 +121,11 @@ code {
 
 }
 
+.sale {
+    font-size: 24px;
+    color: #fd0000;
+}
+
 .titleLocation {
 font-size: 22px;
 
@@ -144,7 +160,7 @@ font-size: 22px;
 }
 
 .person-card div img{
-    margin-right: 0;
+    margin-right: -50px;
 }
 
 .person-card {
