@@ -15,7 +15,7 @@ function App() {
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a href="#" className="menuLink">Услуги</a>
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                  <a href="#" className="menuLink">Цены</a>
+                  <a href="#main" className="menuLink">Цены</a>
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a href="#" className="menuLink">Мастера</a>
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -26,7 +26,7 @@ function App() {
               </div>
             </div>
           </section>
-          <section className="main">
+          <section id="main" className="main">
             <h1 className="titlePrice">Прайс</h1>
             <div className="barber1">Барбер</div>
             <div className="barber2">Топ барбер</div>
