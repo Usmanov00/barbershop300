@@ -24,6 +24,8 @@ code {
     margin: 0 auto;
 }
 
+
+
 .background {
     background: url("../src/assets/img/background.jpg") no-repeat;
 
@@ -53,6 +55,10 @@ code {
 .menu a{
     color: #fff;
     padding-right: 15px;
+}
+
+.main {
+    margin-bottom: 50px;
 }
 
 .barber1 {
@@ -90,6 +96,7 @@ code {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .liPriceTitle {
