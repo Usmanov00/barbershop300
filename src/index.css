@@ -11,7 +11,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-
+color: #fff;
 
 }
 
@@ -25,12 +25,24 @@ code {
 
 }
 
+
+
+.menuLink {
+    font-size: 24px;
+
+}
+
+.menu {
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
 .background img {
     right: 10px;
-    margin-top: -52px;
+    margin-top: -29px;
     margin-bottom: -40px;
-    margin-left: -28px;
-    width: 58%;
+    margin-left: -10px;
+    width: 70%;
 }
 
 
@@ -42,5 +54,12 @@ code {
     padding-right: 15px;
 }
 
+
+.titlePrice {
+    font-size: 30px;
+    margin-bottom: 260px;
+    margin-top: 196px;
+    margin-left: -150px;
+}
 
 
