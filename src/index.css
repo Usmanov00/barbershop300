@@ -43,13 +43,13 @@ code {
     background: rgba(0, 0, 0, 0.3);
 }
 
-.background img {
-    right: 10px;
-    margin-top: -29px;
-    margin-bottom: -40px;
-    margin-left: -10px;
-    width: 70%;
-}
+/*.background img {*/
+/*    right: 10px;*/
+/*    margin-top: -29px;*/
+/*    margin-bottom: -40px;*/
+/*    margin-left: -10px;*/
+/*    width: 70%;*/
+/*}*/
 
 
 .menu a{
@@ -108,6 +108,44 @@ code {
     padding-right: 16px;
     font-size: 16px;
 
+}
+
+.scroller {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.scroller-wrapper {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.people {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.person-card {
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    border: 1px solid rgba(227, 227, 227);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: 240px;
+    width: 240px;
 }
 
 
