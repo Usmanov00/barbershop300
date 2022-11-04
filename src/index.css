@@ -59,25 +59,28 @@ code {
     writing-mode: vertical-rl;
     transform: scale(-1);
     margin-top: -80px;
-    margin-left: 271px ;
+    margin-left: 224px ;
+    font-size: 24px;
 }
 .barber2 {
     writing-mode: vertical-rl;
     transform: scale(-1);
     margin-top: -81px;
-    margin-left: 318px;
+    margin-left: 283px;
+    font-size: 24px;
 }
 .barber3 {
     writing-mode: vertical-rl;
     transform: scale(-1);
-    margin-top: -86px;
-    margin-left: 368px;
+    margin-top: -127px;
+    margin-left: 343px;
+    font-size: 24px;
 }
 
 .titlePrice {
     font-size: 30px;
-    margin-bottom: 214px;
-    margin-top: 196px;
+    margin-bottom: 192px;
+    margin-top: 220px;
     margin-left: -150px;
     align-items: start;
 }
