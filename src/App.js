@@ -1,12 +1,19 @@
 import './App.css';
 import logo from '../src/assets/img/300_s (1).pdf (1).png'
-import img1 from '../src/assets/img/Дизайн без названия (9) (1).png'
-
+import img1 from '../src/assets/img/Дизайн без названия (14) (1).png'
+import img2 from '../src/assets/img/Дизайн без названия (15) (1).png'
+import img3 from '../src/assets/img/Дизайн без названия (13) (1).png'
+import img4 from '../src/assets/img/Дизайн без названия (9) (1).png'
+import img5 from '../src/assets/img/Дизайн без названия (10).png'
+import img6 from '../src/assets/img/Дизайн без названия (16) (1).png'
+import img7 from '../src/assets/img/Дизайн без названия (11) (1).png'
+import img8 from '../src/assets/img/Дизайн без названия (17) (1).png'
+import img9 from '../src/assets/img/Дизайн без названия (12).png'
 
 function App() {
   return (
     <div className="App">
-      <div className="container w-full h-auto overflow-scroll block h-screen bg-gradient-to-r from-blue-100 via-purple-100">
+      <div className="container w-full h-auto overflow-scroll block h-screen bg-gradient-to-r from-red-500 via-gray-900">
         <div className="background">
           <section className="header">
             <div className="headerBox">
@@ -125,26 +132,86 @@ function App() {
             </ul>
           </section>
           <section className="about">
+            <div className="titleLocation">
+              <b><u>Адрес: Токтогула 194/Манаса</u></b>
+            </div>
             <div className="scroller box">
               <ul className="scroller-wrapper people">
                 <li className="person-card">
                   <div className="div-img">
                     <img src={img1} alt=""/>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio minus sequi voluptate. Expedita nihil perspiciatis quo ratione rerum sunt voluptates.
-
+                    <h2>Бакдоолот</h2>
+                    <h2><u>Top Barber</u></h2>
                   </div>
                 </li>
                 <li className="person-card">
                   <div>
-                    <img src={img1} alt=""/>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio minus sequi voluptate. Expedita nihil perspiciatis quo ratione rerum sunt voluptates.
-
+                    <img src={img2} alt=""/>
+                    <h2>Адилет</h2>
+                    <h2><u>Barber</u></h2>
                   </div>
                 </li>
                 <li className="person-card">
                   <div>
-                    <img src={img1} alt=""/>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio minus sequi voluptate. Expedita nihil perspiciatis quo ratione rerum sunt voluptates.
+                    <img src={img3} alt=""/>
+                    <h2>Билал</h2>
+                    <h2><u>Barber</u></h2>
+                  </div>
+                </li>
+                <li className="person-card">
+                  <div>
+                    <img src={img9} alt=""/>
+                    <h2>Абдукерим</h2>
+                    <h2><u>Barber</u></h2>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="titleLocation">
+              <b><u>Адрес: Токтогула 157/Шопокова</u></b>
+            </div>
+            <div className="scroller box">
+              <ul className="scroller-wrapper people">
+                <li className="person-card">
+                  <div className="div-img">
+                    <img src={img4} alt=""/>
+                    <h2>Темирлан</h2>
+                    <h2><u>Top Barber</u></h2>
+                  </div>
+                </li>
+                <li className="person-card">
+                  <div>
+                    <img src={img5} alt=""/>
+                    <h2>Адилет</h2>
+                    <h2><u>Top Barber</u></h2>
+                  </div>
+                </li>
+                <li className="person-card">
+                  <div>
+                    <img src={img6} alt=""/>
+                    <h2>Бекзат</h2>
+                    <h2><u>Top Barber</u></h2>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="titleLocation">
+              <b><u>Адрес: 5 Мкр</u></b>
+            </div>
+            <div className="scroller box">
+              <ul className="scroller-wrapper people">
+                <li className="person-card">
+                  <div className="div-img">
+                    <img src={img7} alt=""/>
+                    <h2>Рауль</h2>
+                    <h2><u>Top Barber</u></h2>
+                  </div>
+                </li>
+                <li className="person-card">
+                  <div>
+                    <img src={img8} alt=""/>
+                    <h2>Азамат</h2>
+                    <h2><u>Barber</u></h2>
                   </div>
                 </li>
               </ul>

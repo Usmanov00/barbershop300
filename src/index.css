@@ -86,7 +86,7 @@ code {
 .titlePrice {
     font-size: 30px;
     margin-bottom: 192px;
-    margin-top: 220px;
+    margin-top: 20px;
     margin-left: -150px;
     align-items: start;
 }
@@ -107,6 +107,11 @@ code {
 .liPricePrice {
     padding-right: 16px;
     font-size: 16px;
+
+}
+
+.titleLocation {
+font-size: 22px;
 
 }
 
