@@ -138,15 +138,23 @@ code {
     left: 0;
 }
 
+.person-card div img{
+    margin-right: 0;
+}
+
 .person-card {
     box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
     border: 1px solid rgba(227, 227, 227);
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
-    min-width: 240px;
-    width: 240px;
+    min-width: 170px;
+    width: 140px;
+    margin: 0 15px;
+    color: #000;
 }
+
+
 
 
 

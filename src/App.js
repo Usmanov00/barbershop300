@@ -1,6 +1,6 @@
 import './App.css';
 import logo from '../src/assets/img/300_s (1).pdf (1).png'
-import img1 from '../src/assets/img/Дизайн без названия (9).png'
+import img1 from '../src/assets/img/Дизайн без названия (9) (1).png'
 
 
 function App() {
@@ -130,14 +130,23 @@ function App() {
                 <li className="person-card">
                   <div className="div-img">
                     <img src={img1} alt=""/>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio minus sequi voluptate. Expedita nihil perspiciatis quo ratione rerum sunt voluptates.
+
                   </div>
                 </li>
                 <li className="person-card">
                   <div>
                     <img src={img1} alt=""/>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio minus sequi voluptate. Expedita nihil perspiciatis quo ratione rerum sunt voluptates.
+
                   </div>
                 </li>
-
+                <li className="person-card">
+                  <div>
+                    <img src={img1} alt=""/>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio minus sequi voluptate. Expedita nihil perspiciatis quo ratione rerum sunt voluptates.
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
