@@ -105,7 +105,7 @@ function App() {
                 </div>
               </li>
               <li className="liPrice">
-                <p className="liPriceTitle">Восковая Дипеляция ...</p>
+                <p className="liPriceTitle">Восковая Дипеляция</p>
                 <div className="div">
                   <span className="liPricePrice">100c |</span>
                   <span className="liPricePrice">150c |</span>
