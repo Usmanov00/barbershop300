@@ -81,15 +81,18 @@ code {
     writing-mode: vertical-rl;
     transform: scale(-1);
     margin-top: -124px;
-    margin-left: 270px;
+    margin-left: 250px;
     font-size: 24px;
+    font-weight: 700;
 }
 .barber2 {
     writing-mode: vertical-rl;
     transform: scale(-1);
-    margin-top: -116px;
-    margin-left: 323px;
+    margin-top: -121px;
+    margin-left: 313px;
     font-size: 24px;
+    font-weight: 700;
+
 }
 .barber3 {
     writing-mode: vertical-rl;
@@ -116,13 +119,26 @@ code {
 }
 
 .liPriceTitle {
+
     padding-left: 10px;
     font-size: 20px;
 }
 
 .liPricePrice {
-    padding-right: 16px;
+    margin-right: 10px;
     font-size: 16px;
+    background: #fd0000;
+    border-radius: 15px;
+    padding: 4px 8px;
+
+}
+
+.liPricePrice1 {
+    margin-right: 10px;
+    font-size: 16px;
+    background: #fd0000;
+    border-radius: 15px;
+    padding: 4px 8px;
 
 }
 

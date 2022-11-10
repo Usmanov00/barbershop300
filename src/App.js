@@ -58,92 +58,92 @@ function App() {
               <li className="liPrice">
                 <p className="liPriceTitle">Мужская стрижка ...</p>
                 <div className="div">
-                  <span className="liPricePrice">400c |</span>
-                  <span className="liPricePrice">500c |</span>
+                  <span className="liPricePrice">400c </span>
+                  <span className="liPricePrice1">500c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Детская стрижка ...</p>
                 <div className="div">
-                  <span className="liPricePrice">350c |</span>
-                  <span className="liPricePrice">400c |</span>
+                  <span className="liPricePrice">350c </span>
+                  <span className="liPricePrice1">400c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Бритье головы ...</p>
                 <div className="div">
-                  <span className="liPricePrice">350c |</span>
-                  <span className="liPricePrice">400c |</span>
+                  <span className="liPricePrice">350c </span>
+                  <span className="liPricePrice1">400c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Стрижка бороды ...</p>
                 <div className="div">
-                  <span className="liPricePrice">350c |</span>
-                  <span className="liPricePrice">400c |</span>
+                  <span className="liPricePrice">350c </span>
+                  <span className="liPricePrice1">400c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Бритье бороды ...</p>
                 <div className="div">
-                  <span className="liPricePrice">350c |</span>
-                  <span className="liPricePrice">400c |</span>
+                  <span className="liPricePrice">350c </span>
+                  <span className="liPricePrice1">400c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Укладка волос ...</p>
                 <div className="div">
-                  <span className="liPricePrice">200c |</span>
-                  <span className="liPricePrice">250c |</span>
+                  <span className="liPricePrice">200c </span>
+                  <span className="liPricePrice1">250c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Камуфляж волос ...</p>
                 <div className="div">
-                  <span className="liPricePrice">350c |</span>
-                  <span className="liPricePrice">400c |</span>
+                  <span className="liPricePrice">350c </span>
+                  <span className="liPricePrice1">400c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Камуфляж бороды ...</p>
                 <div className="div">
-                  <span className="liPricePrice">350c |</span>
-                  <span className="liPricePrice">400c |</span>
+                  <span className="liPricePrice">350c </span>
+                  <span className="liPricePrice1">400c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Маска лица 3 в 1 ...</p>
                 <div className="div">
-                  <span className="liPricePrice">500c |</span>
-                  <span className="liPricePrice">500c |</span>
+                  <span className="liPricePrice">500c </span>
+                  <span className="liPricePrice1">500c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Массаж головы ...</p>
                 <div className="div">
-                  <span className="liPricePrice">100c |</span>
-                  <span className="liPricePrice">100c |</span>
+                  <span className="liPricePrice">100c </span>
+                  <span className="liPricePrice1">100c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Восковая Депеляция</p>
                 <div className="div">
-                  <span className="liPricePrice">100c |</span>
-                  <span className="liPricePrice">150c |</span>
+                  <span className="liPricePrice">100c </span>
+                  <span className="liPricePrice1">150c </span>
                 </div>
               </li>
               <li className="liPrice">
                 <p className="liPriceTitle">Кудри+Стрижка ...</p>
                 <div className="div">
-                  <span className="liPricePrice">1500c |</span>
-                  <span className="liPricePrice">1700c |</span>
+                  <span className="liPricePrice">1500c </span>
+                  <span className="liPricePrice1">1700c </span>
                 </div>
               </li>
               <h1 className="sale"><u><b>Акции</b></u></h1>
               <li className="liPrice">
                 <p className="liPriceTitle">Отец + сын</p>
                 <div className="div">
-                  <span className="liPricePrice">700c |</span>
+                  <span className="liPricePrice">700c </span>
                 </div>
               </li>
             </ul>
