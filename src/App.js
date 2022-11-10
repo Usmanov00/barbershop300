@@ -9,22 +9,29 @@ import img6 from '../src/assets/img/Дизайн без названия (16) (1
 import img7 from '../src/assets/img/Дизайн без названия (11) (1).png'
 import img8 from '../src/assets/img/Дизайн без названия (17) (1).png'
 import img9 from '../src/assets/img/Дизайн без названия (12).png'
+import img10 from '../src/assets/img/erlan.jpeg'
 import whatsapp from '../src/assets/img/WhatsApp.png'
-
+import instagram from '../src/assets/img/instagram.png'
+import appointments from '../src/assets/img/appointments.png'
+import placeholder from '../src/assets/img/placeholder.png'
+import whatsappRed from '../src/assets/img/whatsappRed.png'
+import phone from '../src/assets/img/phone.png'
+import touch from '../src/assets/img/touch.png'
+import gmail from '../src/assets/img/gmail.png'
 
 function App() {
   return (
     <div className="App">
-      <div className="container w-full h-auto overflow-scroll block h-screen bg-gradient-to-r from-red-700 via-gray-900">
+      <div className="container w-full h-auto overflow-scroll block h-screen bg-black">
         <div className="background">
           <section className="header">
             <div className="headerBox">
               <div className="container header-container">
                 <nav className="menu">
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                  <a href="#" className="menuLink">О нас</a>
+                  <a href="#location" className="menuLink">О нас</a>
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-                  <a href="#" className="menuLink">Услуги</a>
+                  <a href="#main" className="menuLink">Услуги</a>
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                   <a href="#main" className="menuLink">Цены</a>
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -49,7 +56,7 @@ function App() {
             <div className="barber2">Топ барбер</div>
             <ul className="title">
               <li className="liPrice">
-              <p className="liPriceTitle">Мужская стрижка ...</p>
+                <p className="liPriceTitle">Мужская стрижка ...</p>
                 <div className="div">
                   <span className="liPricePrice">400c |</span>
                   <span className="liPricePrice">500c |</span>
@@ -98,6 +105,13 @@ function App() {
                 </div>
               </li>
               <li className="liPrice">
+                <p className="liPriceTitle">Камуфляж бороды ...</p>
+                <div className="div">
+                  <span className="liPricePrice">350c |</span>
+                  <span className="liPricePrice">400c |</span>
+                </div>
+              </li>
+              <li className="liPrice">
                 <p className="liPriceTitle">Маска лица 3 в 1 ...</p>
                 <div className="div">
                   <span className="liPricePrice">500c |</span>
@@ -112,7 +126,7 @@ function App() {
                 </div>
               </li>
               <li className="liPrice">
-                <p className="liPriceTitle">Восковая Дипеляция</p>
+                <p className="liPriceTitle">Восковая Депеляция</p>
                 <div className="div">
                   <span className="liPricePrice">100c |</span>
                   <span className="liPricePrice">150c |</span>
@@ -217,11 +231,199 @@ function App() {
                     <h2><u>Barber</u></h2>
                   </div>
                 </li>
+                <li className="person-card">
+                  <div>
+                    <img src={img10} alt=""/>
+                    <h2>Эрлан</h2>
+                    <h2><u>Top Barber</u></h2>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
           <section className="footer">
-
+          </section>
+          <section id="location" className="location">
+            <hr/>
+            <ul className="locationUl">
+              <h1 className="locationTitle">Токтогула 194</h1>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={appointments} alt=""/>
+                </div>
+                <a href="https://wa.me/+996551300550">
+                  <span> Записаться сейчас</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={placeholder} alt=""/>
+                </div>
+                <a href="#">
+                  <span> Токтогула 194, 1 этаж</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={touch} alt=""/>
+                </div>
+                <a href="https://2gis.kg/bishkek/geo/15763234351062910">
+                  <span> Посмотреть на карте</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={phone} alt=""/>
+                </div>
+                <a href="№">
+                  <span> +996 501 300 550</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={whatsappRed} alt=""/>
+                </div>
+                <a href="https://wa.me/+996551300550">
+                  <span> +996 551 300 550</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={instagram} alt=""/>
+                </div>
+                <a href="https://www.instagram.com/barbershop_300/">
+                  <span>barbershop_300</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={gmail} alt=""/>
+                </div>
+                <a href="#">
+                  <span>chyngyzalakov@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+            <hr/>
+            <ul className="locationUl">
+              <h1 className="locationTitle">5 мкр</h1>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={appointments} alt=""/>
+                </div>
+                <a href="https://wa.me/+996552300440">
+                  <span> Записаться сейчас</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={placeholder} alt=""/>
+                </div>
+                <a href="#">
+                  <span>5-й миккрорайон, 2</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={touch} alt=""/>
+                </div>
+                <a href="https://2gis.kg/bishkek/branches/70000001029793774/firm/70000001037722812/74.624564%2C42.835262?m=74.64607%2C42.844512%2F14.37">
+                  <span> Посмотреть на карте</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={phone} alt=""/>
+                </div>
+                <a href="#">
+                  <span> +996 502 300 550</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={whatsappRed} alt=""/>
+                </div>
+                <a href="https://wa.me/+996552300440">
+                  <span> +996 552 300 440</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={instagram} alt=""/>
+                </div>
+                <a href="https://www.instagram.com/barbershop_300/">
+                  <span>barbershop_300</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={gmail} alt=""/>
+                </div>
+                <a href="#">
+                  <span>chyngyzalakov@gmail.com</span>
+                </a>
+              </li>
+            </ul>
+            <hr/>
+            <ul className="locationUl">
+              <h1 className="locationTitle">Токтогула 57</h1>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={appointments} alt=""/>
+                </div>
+                <a href="#">
+                  <span> Записаться сейчас</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={placeholder} alt=""/>
+                </div>
+                <a href="#">
+                  <span> Токтогула 57, первый этаж</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={touch} alt=""/>
+                </div>
+                <a href="https://2gis.kg/bishkek/branches/70000001029793774/firm/70000001047664646/74.615393%2C42.871915?m=74.610783%2C42.870545%2F16">
+                  <span> Посмотреть на карте</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={phone} alt=""/>
+                </div>
+                <a href="#">
+                  <span> +996 501 300 440</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={whatsappRed} alt=""/>
+                </div>
+                <a href="https://wa.me/+996551300440">
+                  <span> +996 551 300 440</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={instagram} alt=""/>
+                </div>
+                <a href="https://www.instagram.com/barbershop_300/">
+                  <span>barbershop_300</span>
+                </a>
+              </li>
+              <li className="locationLi">
+                <div className="locationImg">
+                  <img src={gmail} alt=""/>
+                </div>
+                <a href="#">
+                  <span>chyngyzalakov@gmail.com</span>
+                </a>
+              </li>
+            </ul>
           </section>
         </div>
       </div>
