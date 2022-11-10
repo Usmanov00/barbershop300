@@ -39,15 +39,15 @@ function App() {
                   {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 </nav>
               </div>
-              <a href="https://wa.me/+996502300440">
+              {/*<a href="https://wa.me/+996502300440">*/}
                 <div className="img">
                   <img src={logo} alt=""/>
                 </div>
-                <div className="whatsapp">
-                  <img src={whatsapp} alt=""/>
-                  Записаться
-                </div>
-              </a>
+                {/*<div className="whatsapp">*/}
+                {/*  <img src={whatsapp} alt=""/>*/}
+                {/*  Записаться*/}
+                {/*</div>*/}
+              {/*</a>*/}
             </div>
           </section>
           <section id="main" className="main">
