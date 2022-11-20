@@ -199,7 +199,7 @@ function App() {
                 <li className="person-card">
                   <div>
                     <img src={img5} alt=""/>
-                    <h2>Адилет</h2>
+                    <h2>Нурмат</h2>
                     <h2><u>Top Barber</u></h2>
                   </div>
                 </li>
@@ -213,7 +213,7 @@ function App() {
               </ul>
             </div>
             <div className="titleLocation">
-              <b><u>Адрес: 5 Мкр</u></b>
+              <b><u>Адрес: 5й Мкр</u></b>
             </div>
             <div className="scroller box">
               <ul className="scroller-wrapper people">
